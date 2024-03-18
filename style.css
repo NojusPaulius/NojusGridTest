@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.stageAndTimeColor{
+    background-color: rgb(177, 172, 172);
+
+}
+
+.orangeTime{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: orange;
+    align-self: center;
+}
+
+div{
+    border-radius: 15px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.divFormation{
+    justify-items: start;
+    align-items: start;
+}
+
+.divTitle{
+    align-self: self-end;
+    margin-left: 17%;
+}
+
+.title1237{
+    color: rgb(16, 90, 158);
+    font-size: 30px;
+}
+
+.title48{
+    color: green;
+    font-size: 30px;
+}
+
+.title56{
+    color: rgb(170, 33, 8);
+    font-size: 30px;
+}
+
+.title9_10{
+    color: rgb(251, 181, 3);
+    font-size: 30px;
+}
+
+.spanFormation{
+    align-items: start;
+    justify-items: start;
+    margin-left: 17%;
+}
+
+
+
+.emptyDiv{
+    grid-area: 1 / 1 / 2 / 2;
+   
+}
+
+.stage1{
+    grid-area: 1 / 2 / 2 / 3;
+   
+}
+
+.stage2{
+    grid-area: 1 / 3 / 2 / 4;
+  
+}
+
+.stage3{
+    grid-area: 1 / 4 / 2 / 5;
+
+
+}
+
+.stage4{
+    grid-area: 1 / 5 / 2 / 6;
+
+}
+
+.stage5{
+    grid-area: 1 / 6 / 2 / 7;
+
+}
+
+.stage6{
+    grid-area: 1 / 7 / 2 / 8;
+
+}
+
+.stage7{
+    grid-area: 1 / 8 / 2 / 9;
+
+}
+
+
+
+.time1{
+    grid-area: 2 / 1 / 3 / 2;
+
+}
+
+.time2{
+    grid-area: 3 / 1 / 4 / 2;
+
+}
+
+.time3{
+    grid-area: 4 / 1 / 5 / 2;
+
+}
+
+.time4{
+    grid-area: 5 / 1 / 6 / 2;
+
+}
+
+.time5{
+    grid-area: 6 / 1 / 7 / 2;
+
+}
+
+.time6{
+    grid-area: 7 / 1 / 8 / 2;
+
+}
+
+.time7{
+    grid-area: 8 / 1 / 9 / 2;
+
+}
+
+.time8{
+    grid-area: 9 / 1 / 10 / 2;
+
+}
+
+.time9{
+    grid-area: 10 / 1 / 11 / 2;
+
+}
+
+.time10{
+    grid-area: 11 / 1 / 12 / 2;
+
+}
+
+
+
+.talk1{
+    grid-area: 2 / 2 / 5 / 4;
+    background-color: aqua;
+}
+
+.break1{
+    grid-area: 5 / 2 / 6 / 4;
+}
+
+
+.talk2_3{
+    grid-area: 6 / 2 / 8 / 5;
+    background-color: aqua;
+}
+
+.talk4{
+    background-color: greenyellow;
+    grid-area: 2 / 4 / 6 / 5;
+}
+
+.talk5{
+    background-color: tomato;
+    grid-area: 2 / 5 / 3 / 7;
+}
+
+.break2{
+    grid-area: 3 / 5 / 4 / 7;
+}
+
+.talk6{
+    background-color: tomato;
+    grid-area: 4 / 5 / 8 / 7;
+}
+
+.talk9{
+    background-color: yellow;
+    grid-area: 2 / 7 / 8 / 9;
+}
+
+.break3{
+    grid-area: 8 / 2 / 9 / 9;
+}
+
+.talk7{
+    background-color: aqua;
+    grid-area: 9 / 2 / 12 / 4;
+}
+
+.talk8{
+    background-color: greenyellow;
+    grid-area: 10 / 4 / 12 / 7;
+}
+
+.talk10{
+    background-color: yellow;
+    grid-area: 9 / 7 / 12 / 9 ;
+}
+
+
+
